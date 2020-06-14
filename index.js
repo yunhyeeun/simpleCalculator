@@ -9,7 +9,7 @@ let signs = [];
 
 function getNumber(event) {
   const btn = event.target;
-  if (val === "0") {
+  if (val === "0" && btn.value != 0) {
     val = btn.value;
   } else {
     val += btn.value;
